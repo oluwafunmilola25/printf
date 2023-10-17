@@ -7,5 +7,6 @@
 #include <stdio.h>
 
 int _printf(const char *format, ...);
+int printString(const char *format, va_list output);
 
 #endif
