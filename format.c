@@ -31,7 +31,7 @@ int _printf(const char *format, ...)
 		{
 			format++;
 			if (*format == '\0')
-				return 0;
+				return (character);
 			
 			if (*format == 'c')
 			{
