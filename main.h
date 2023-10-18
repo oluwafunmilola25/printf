@@ -2,11 +2,10 @@
 #define MAIN_H
 
 #include <stdarg.h>
-#include <unistd.h>
-#include <string.h>
 #include <stdio.h>
+#include <unistd.h>
 
+int _putchar(char c);
 int _printf(const char *format, ...);
-int printString(const char *format, va_list output);
 
 #endif
